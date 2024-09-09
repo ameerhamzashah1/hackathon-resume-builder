@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #032B44; /* Navy Blue */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #c38f8f;
+    color: #fff;
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #fff;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.personal-info {
+    flex-grow: 1;
+    color:  #032B44;;
+}
+
+.personal-info h1{
+    color: white;
+}
+nav {
+    background-color: #c38f8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color:  whitesmoke;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ff9900;
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 0;
+    color: #00698f; /* Blue */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.show-skills {
+    background-color: #ff9900; /* Orange */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: none;
+}
+
+.show-skills:hover + .skills-list {
+    display: block;
+}
+
+.skills-list ul {
+    list-style: disc;
+    padding: 10px;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.work-experience li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.work-experience li:last-child {
+    border-bottom: none;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #00698f; /* Blue */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ff9900; /* Orange */
+}
